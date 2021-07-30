@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolBar"
+        android:background="#6600ff00"
+        android:titleTextColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/search"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/search"
+        android:id="@+id/btnImg"
+        android:text="搜尋"
+        android:textColor="#222222"
+        android:textSize="26sp"/>
+
+    <!--
+        <Button/>
+            android:background="@mipmap/search" //將按鈕背景設成某圖片
+            android:text="search"               //並在圖片上加上欲顯示之文字
+    -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImg2"
+        android:background="#00000000"
+        android:src="@mipmap/search"/>
+
+    <!--
+        <ImageButton/>
+            android:background="#00000000"  //背景顏色設定
+            android:src="@mipmap/search"    //背景圖片來源
+            //和<Button/>不同，不能顯示文字
+    -->
+
+
+
+</LinearLayout>
